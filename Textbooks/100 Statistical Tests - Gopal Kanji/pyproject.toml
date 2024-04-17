@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "100 statistical tests - gopal kanji"
+version = "0.1.0"
+description = ""
+authors = ["yongjian.tek <yongjian.tek@grabtaxi.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+scipy = "^1.13.0"
+ipykernel = "^6.29.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
